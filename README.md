@@ -4,6 +4,13 @@
 
 An experimental project exploring AI-powered audio cleaning techniques to remove baby crying and fussing from voice recordings, enabling better speech-to-text transcription for busy parents.
 
+## Quick Comparison
+
+| | Before | After (DeepFilterNet) |
+|---|---|---|
+| **Audio** | [original-note.mp3](source/original-note.mp3) | [enhanced_output.mp3](deepnet-processed/enhanced_output.mp3) |
+| **Transcript** | [View transcripts](stt-eval/stt_comparison_results.json) | [View transcripts](stt-eval/stt_comparison_results.json) |
+
 ## Overview
 
 This repository tests various background noise removal and audio inpainting utilities to determine their effectiveness at removing crying baby sounds from audio recordings. The primary motivation is to enable reliable speech-to-text (STT) transcription for voice applications used by parents who may need to dictate messages while caring for young children.
